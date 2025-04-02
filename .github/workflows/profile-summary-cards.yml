@@ -1,0 +1,21 @@
+name: GitHub-Profile-Summary-Cards
+
+on:
+  schedule: # execute every 24 hours at midnight UTC
+    - cron: "0 0 * * *"
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate summary cards
+
+    steps:
+      - uses: actions/checkout@v4 # Use latest stable version
+      - uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Use the built-in GITHUB_TOKEN
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          # Add any specific themes or options here if desired
+          # e.g., THEME_NAME: dracula
