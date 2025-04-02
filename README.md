@@ -1,12 +1,12 @@
 # Hi there, I'm boxp👋
 
-I'm a developer interested in various technologies.
+I'm a developer interested in Clojure,k8s
 
 ## 📮Where to find me
 
-* [Twitter](https://twitter.com/YOUR_TWITTER_HANDLE) <!-- TODO: Replace with your Twitter handle -->
-* [Portfolio Site](https://YOUR_PORTFOLIO_SITE) <!-- TODO: Replace with your portfolio site URL -->
-* [Blog/Other](https://YOUR_OTHER_LINK) <!-- TODO: Replace or remove -->
+* [Twitter](https://x.com/b0xp2)
+* [Portfolio](https://b0xp.io)
+* [YouTube](https://www.youtube.com/@BOXPKETARO)
 
 ## 👑Trophy
 
